@@ -4,7 +4,7 @@
 // Variables declaration
 let variable; // local variable, modern style
 var variable1; // global variable, obsolete
-const variable2; // const local variable, modern style
+const variable2 = 0; // const local variable, modern style
 
 // Variables initialization
 let init_variable = 10;
@@ -71,8 +71,8 @@ let car = {
         p: 500
     }
 };
-console.log(car.fuel) // 100
-car.fuel = 10000
-car.engine = "Hello"
+console.log(car.fuel); // 100
+car.fuel = 10000;
+car.engine = "Hello";
 
-typeof car // object , typeof helps to determine type of variable
+typeof car; // object , typeof helps to determine type of variable
