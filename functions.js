@@ -162,4 +162,15 @@ let getPromiseBooks = getPromiseData('authors').then(authors => getPromiseData('
 //-----------------------------------------------------
 // Async
 
+const asyncGet = async function () {
+    const authors = await getPromiseData('authors');
+    const books = await  getPromiseData('books');
+    return { authors, books };
+};
+asyncGet();
+
+const asyncGetArrow = async () => {};
+//------------------------------------------------------
+
+
 
