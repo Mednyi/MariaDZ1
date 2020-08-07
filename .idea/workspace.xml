@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d1d875-4cbf-4bf3-ac8f-50a2f1bb4a03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Pug File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -27,9 +32,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\MariaDZ1\todo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="vectorWorks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vectorWorks.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.vectorWorks.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +74,13 @@
       <workItem from="1595485535224" duration="14000" />
       <workItem from="1595611529662" duration="4450000" />
       <workItem from="1595786013279" duration="4328000" />
-      <workItem from="1595959229435" duration="3937000" />
+      <workItem from="1595959229435" duration="4597000" />
+      <workItem from="1596044142838" duration="14000" />
+      <workItem from="1596132583185" duration="4308000" />
+      <workItem from="1596176934585" duration="10000" />
+      <workItem from="1596562555970" duration="5216000" />
+      <workItem from="1596627094644" duration="604000" />
+      <workItem from="1596737038305" duration="5121000" />
     </task>
     <servers />
   </component>
@@ -58,9 +88,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595959884929">
+    <state x="436" y="205" key="EditFileWatcherDialog" timestamp="1596135380415">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1595959884929" />
+    <state x="436" y="205" key="EditFileWatcherDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596135380415" />
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1596148334417">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596148334417" />
+    <state width="1515" height="203" key="GridCell.Tab.0.center" timestamp="1596148334417">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596148334417" />
+    <state width="1515" height="203" key="GridCell.Tab.0.left" timestamp="1596148334417">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596148334417" />
+    <state width="1515" height="203" key="GridCell.Tab.0.right" timestamp="1596148334417">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596148334417" />
+    <state x="277" y="75" key="SettingsEditor" timestamp="1596135382333">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596135382333" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1596568230339">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596568230339" />
   </component>
 </project>
