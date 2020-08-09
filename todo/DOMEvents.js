@@ -16,16 +16,16 @@
 // click
 
 // 1 <div class="button" onclick="createTask()">Добавить</div>
-console.log(this);
+/*console.log(this);
 let i = 0;
 function createTask () {
     const main = document.getElementsByTagName('main')[0];
     const newTask = document.createElement('div');
     newTask.className = 'todo';
-    newTask.innerHTML = '<span>Новый элемент</span><span>Сделано</span>';
+    newTask.innerHTML = '<input class ="input" id="myTextField" placeholder="Добавить задачу">';
     main.append(newTask);
 }
-
+*/
 // 2
 
 const deleteTask = (e) => {
@@ -39,7 +39,7 @@ const createTask2 = (e) => {
     const main = document.getElementsByTagName('main')[0];
     const newTask = document.createElement('div');
     newTask.className = 'todo';
-    newTask.innerHTML = '<span>Новый элемент</span><span>Сделано</span>';
+    newTask.innerHTML = '<input class ="input" id="myTextField" placeholder="Добавить задачу">';
     main.append(newTask); 
 };
 // window.onload = () => {
@@ -64,6 +64,7 @@ for (let task of tasks) {
     })
 }
 
-
-
+const focusMethod = function getFocus() {           
+    document.getElementById("myTextField").focus();
+  };
 

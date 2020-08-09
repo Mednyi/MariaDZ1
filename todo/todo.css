@@ -12,6 +12,18 @@ main {
     border: 1px solid black;
     padding: 32px;
 }
+
+.input {
+    width: 120px;
+    outline: none;
+    border:0;
+    outline: none;
+    }
+
+.dropdown {
+    border:0;
+    }
+
 .todo {
     display: grid;
     grid-auto-flow: column;
@@ -19,7 +31,7 @@ main {
     grid-template-columns: 1fr max-content;
     height: 32px;
     align-items: center;
-    border-bottom: solid black 2px;
+    border-bottom: solid gray 2px;
 }
 .button {
     width: 160px;
@@ -27,8 +39,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    border: 0;
     cursor: pointer;
+    background-color: green;
+    color:white;
 }
 .controls {
     display: flex;
@@ -36,4 +50,5 @@ main {
 }
 .icon {
     cursor: pointer;
+    color:red;
 }
