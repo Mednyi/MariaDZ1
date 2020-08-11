@@ -39,8 +39,19 @@ const createTask2 = (e) => {
     const main = document.getElementsByTagName('main')[0];
     const newTask = document.createElement('div');
     newTask.className = 'todo';
-    newTask.innerHTML = '<input class ="input" id="myTextField" placeholder="Добавить задачу">';
-    main.append(newTask); 
+    newTask.innerHTML = `
+                            <input class ="input" id="myTextField" placeholder="Добавить задачу">
+                            <select class ="dropdown">
+                                <option>Сделано</option>
+                                <option>Не сделано</option>
+                            </select>
+                            <span class="icon" data-action="delete">X</span>
+                        `;
+    newTask.addEventListener('click', function (e) {
+        if (e.target.dataset && e.target.dataset.action === 'delete') this.remove();
+    });
+    main.append(newTask);
+    newTask.firstElementChild.focus();
 };
 // window.onload = () => {
 //    const addButton = document.getElementById('add');
@@ -64,7 +75,18 @@ for (let task of tasks) {
     })
 }
 
-const focusMethod = function getFocus() {           
+const focusMethod = function getFocus() {
     document.getElementById("myTextField").focus();
   };
 
+const searchField = document.getElementById('search');
+searchField.oninput = function (e) {
+    const tasks = document.getElementsByClassName('todo');
+    for (let task of tasks) {
+        if (task.firstElementChild.value.includes(this.value)) {
+            task.setAttribute('style', 'display: grid');
+        } else {
+            task.setAttribute('style', 'display: none');
+        }
+    }
+};
