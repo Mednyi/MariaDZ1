@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07d1d875-4cbf-4bf3-ac8f-50a2f1bb4a03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/DOMEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/DOMEvents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo/todo_tada.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,12 @@
       <workItem from="1596995372809" duration="2225000" />
       <workItem from="1596997638613" duration="3905000" />
       <workItem from="1597081985898" duration="599000" />
-      <workItem from="1597167714116" duration="4500000" />
+      <workItem from="1597167714116" duration="5186000" />
+      <workItem from="1597212149931" duration="25000" />
+      <workItem from="1597993283673" duration="21000" />
+      <workItem from="1597993323068" duration="103000" />
+      <workItem from="1598082034186" duration="113000" />
+      <workItem from="1598791521659" duration="4033000" />
     </task>
     <servers />
   </component>
@@ -115,10 +117,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596148334417" />
-    <state x="277" y="75" key="SettingsEditor" timestamp="1597001411460">
+    <state x="277" y="75" key="SettingsEditor" timestamp="1598791803324">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="75" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1597001411460" />
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598791803324" />
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1598793325904">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598793325904" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1596568230339">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
