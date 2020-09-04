@@ -121,11 +121,11 @@ class TodoView extends Component {
     }
 }*/
 
-class TodoList {
+class TodoList extends Component {
     constructor(data = {filter: '', tasks: []}) {
-        this.data = data;
-        this.methods = {}
-    }
+            super(data);
+        }
+    
     template () {
         return ` 
         <main>
@@ -135,13 +135,8 @@ class TodoList {
           </div>
         </main>`
     }
-    render () {
-        if (!this.$el) {
-            this.$el = document.createElement('div');
-        }
-        this.$el.innerHTML = this.template();
-        this.$el = this.$el.firstElementChild;
-        this.data.tasks.forEach(task => {
+    onRender () {
+         this.data.tasks.forEach(task => {
             const todoComponent = new TodoView(task);
             this.$el.appendChild(todoComponent.render());
         });
