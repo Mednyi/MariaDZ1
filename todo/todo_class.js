@@ -69,7 +69,6 @@ class TodoView extends Component {
         titleInput.addEventListener('blur', this.methods.changeTitle);
         const inputStatus = this.$el.children[1];
         inputStatus.addEventListener('change', this.methods.changeStatus);
-        return this.$el;
     }
 }
 
