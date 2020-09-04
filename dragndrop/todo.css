@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    display: grid;
+    width: 250px;
+    grid-gap: 16px;
+    padding: 16px;
+    border: 1px solid;
+}
+main > div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 32px 0px;
+}
+main > div:nth-child(2) {
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.card textarea {
+    height: 132px;
+}

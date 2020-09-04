@@ -35,11 +35,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dragndrop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\MariaDZ1\dragndrop" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\MariaDZ1\todo" />
     </key>
@@ -93,6 +96,7 @@
       <workItem from="1598982933435" duration="4457000" />
       <workItem from="1599113450907" duration="3680000" />
       <workItem from="1599148664413" duration="9000" />
+      <workItem from="1599245932732" duration="4380000" />
     </task>
     <servers />
   </component>

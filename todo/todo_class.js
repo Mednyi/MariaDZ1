@@ -72,71 +72,46 @@ class TodoView extends Component {
     }
 }
 
-/*class TodoView {
-    constructor(data = {title: '', status: false}) {
-        this.data = data;
-        Object.keys(this.methods).forEach(methodName => {
-           this.methods[methodName]  = this.methods[methodName].bind(this)
-        })
-    }
-    template () {
-        return `
-                 <input class ="input" value="${this.data.title}" id="myTextField" placeholder="Добавить задачу">
-                 <select class ="dropdown">
-                     <option ${this.data.status ? 'selected' : ''} value=1>Сделано</option>
-                     <option ${!this.data.status ? 'selected' : ''} value=0>Не сделано</option>
-                 </select>
-                 <span class="icon" data-action="delete">X</span>
-        `
-    }
-    methods = {
-        remove () {
-            this.$el.remove();
-            delete this;
-        },
-        changeTitle () {
-            const titleInputValue = this.$el.children[0].value;
-            this.data.title = titleInputValue;
-            this.render();
-        },
-        changeStatus () {
-            const inputStatus = + this.$el.children[1].value;
-            this.data.status = inputStatus;
-            this.render();
-        }
-    }
-    render () {
-        if (!this.$el) {
-            this.$el = document.createElement('div');
-            this.$el.className = 'todo'
-        }
-        this.$el.innerHTML = this.template();
-        const deleteButton = this.$el.children[2];
-        deleteButton.addEventListener('click', this.methods.remove);
-        const titleInput = this.$el.children[0];
-        titleInput.addEventListener('blur', this.methods.changeTitle);
-        const inputStatus = this.$el.children[1];
-        inputStatus.addEventListener('change', this.methods.changeStatus);
-        return this.$el;
-    }
-}*/
 
 class TodoList extends Component {
     constructor(data = {filter: '', tasks: []}) {
             super(data);
+            if (this.data.filter === undefined) this.data.filter = '';
         }
-    
+
     template () {
         return ` 
         <main>
           <div class="controls">
-              <input class ="input" id="search" placeholder="Поиск...">
+              <input class ="input" id="search" placeholder="Поиск..." value=${this.data.filter}>
               <button id="add" class = "button" onclick="focusMethod()">Добавить</button>
           </div>
         </main>`
     }
+    methods () {
+        return {
+            addTodo () {
+                const newTask = {title: '', status: false};
+                this.data.tasks.push(newTask);
+                this.render();
+            },
+            filterTodos () {
+                const searchInput = this.$el.firstElementChild.firstElementChild;
+                this.data.filter = searchInput.value;
+                this.render();
+                const searchInputNew = this.$el.firstElementChild.firstElementChild;
+                searchInputNew.focus();
+                searchInputNew.selectionStart = searchInputNew.value.length;
+            }
+        }
+    }
     onRender () {
-         this.data.tasks.forEach(task => {
+         const searchInput = this.$el.firstElementChild.firstElementChild;
+         const addButton = this.$el.firstElementChild.children[1];
+         searchInput.addEventListener('input', this.methods.filterTodos);
+         addButton.addEventListener('click', this.methods.addTodo);
+         const filtered = this.data.tasks.filter(task => task.title.includes(this.data.filter));
+         filtered.forEach(task => {
             const todoComponent = new TodoView(task);
             this.$el.appendChild(todoComponent.render());
         });
