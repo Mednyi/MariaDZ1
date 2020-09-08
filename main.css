@@ -5,7 +5,7 @@ body {
         'm m' auto
         'f f' 155px
         /1fr;
-background: #FFFFFF;  
+background: #FFFFFF;
 }
 header {
   grid-area: h;
@@ -19,7 +19,7 @@ font-family: Freehand;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 29px;  
+line-height: 29px;
 }
 
 .burger{
@@ -137,7 +137,7 @@ margin-top:40px;
 }
 
 footer{
-background: url("Vector.jpg");
+background: url("checkmates/assets/images/Vector.jpg");
 border: 2px solid #FFFFFF;
 width:100%;
 }
