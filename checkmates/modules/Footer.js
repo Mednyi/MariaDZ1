@@ -1,5 +1,5 @@
 'use strict';
-import Component from './component.js';
+import Component from './framework/component.js';
 export default class Footer extends Component {
     template() {
         return `

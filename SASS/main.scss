@@ -1,0 +1,51 @@
+// Вложенные стили
+@import "./fragments/colors"; // Импорт фрагмента scss
+@import "./fragments/sizes";
+$list-icon: '*';
+
+%centered-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  @each $status, $color in $status-colors { // Директива @each проходится по каждой паре ключ-значение
+      &--#{$status} {
+          border-color: $color;
+      }
+  }
+}
+
+ul {
+  li {
+    &:before {
+      content: $list-icon;
+    }
+  }
+}
+
+header {
+  background-color: $alt-background;
+  color: $alt-text;
+  height: #{6*$grid-base-large};
+  .button {
+    @extend %centered-flex;
+    // & - ссылка на родительский селектор (.button)
+    &:hover {
+      color: $text;
+      background-color: $background;
+    }
+    // Вложенные свойства
+    border: {
+      bottom: 2px solid black;
+    }
+    font: {
+      size: 14px;
+      weight: bold;
+      family: 'Roboto', sans-serif;
+    }
+    width: 120px;
+    height: 100%;
+  }
+}

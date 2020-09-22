@@ -1,0 +1,42 @@
+header .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input--error {
+  border-color: red;
+}
+input--success {
+  border-color: green;
+}
+input--warning {
+  border-color: orange;
+}
+input--disabled {
+  border-color: grey;
+}
+
+ul li:before {
+  content: "*";
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 96px;
+}
+header .button {
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 120px;
+  height: 100%;
+}
+header .button:hover {
+  color: black;
+  background-color: #ececec;
+}
+
+/*# sourceMappingURL=main.css.map */

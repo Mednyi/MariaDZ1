@@ -1,6 +1,9 @@
 'use strict';
-import Component from './component.js'
+import Component from './framework/component.js'
 export default class Landing extends Component {
+    constructor() {
+        super(null, './assets/css/landing.css');
+    }
     template() {
         return `
             <main>
@@ -17,5 +20,16 @@ export default class Landing extends Component {
                 <img class="ladia" src="assets/images/ladia.png">
             </main>
         `
+    }
+    methods() {
+        return {
+            login () {
+                this.$router.push('auth');
+            }
+        }
+    }
+    onRender() {
+        const loginButton = this.$el.getElementsByTagName('input')[0];
+        loginButton.addEventListener('click', this.methods.login);
     }
 }
