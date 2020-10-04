@@ -1,19 +1,57 @@
 // Вложенные стили
 @import "./fragments/colors"; // Импорт фрагмента scss
 @import "./fragments/sizes";
+@import "./fragments/env";
 $list-icon: '*';
 
-%centered-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// %centered-flex {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+// }
+
+@mixin centered-flex($width: 100%, $height: 100%) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $width;
+    height: $height;
+}
+
+article {
+  @include centered-flex(200px, 300px);
+  p {
+    font-size: 16px;
+    margin: 0px;
+  }
 }
 
 input {
   @each $status, $color in $status-colors { // Директива @each проходится по каждой паре ключ-значение
+      @if($debug) {
+        @debug $status + ': ' + $color;
+      }
+      // @warn 'Compiling';
+      // @error 'Compiling error';
       &--#{$status} {
           border-color: $color;
       }
+  }
+}
+
+.card {
+  @include centered-flex();
+  // @for $i from 1 through 4 {
+  //  &--#{$i} {
+  //    background-color: #{nth($status-colors, $i)};
+  //  }
+  //}
+  $j: 1;
+  @while $j < 5 {
+    &--#{$j} {
+      background-color: #{nth($status-colors, $j)};
+      $j: $j + 1;
+    }
   }
 }
 
@@ -30,7 +68,7 @@ header {
   color: $alt-text;
   height: #{6*$grid-base-large};
   .button {
-    @extend %centered-flex;
+    // @extend %centered-flex;
     // & - ссылка на родительский селектор (.button)
     &:hover {
       color: $text;

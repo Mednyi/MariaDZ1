@@ -1,0 +1,69 @@
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 300px;
+}
+
+article p {
+  font-size: 16px;
+  margin: 0px;
+}
+
+input--error {
+  border-color: red;
+}
+input--success {
+  border-color: green;
+}
+input--warning {
+  border-color: orange;
+}
+input--disabled {
+  border-color: grey;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.card--1 {
+  background-color: error red;
+}
+.card--2 {
+  background-color: success green;
+}
+.card--3 {
+  background-color: warning orange;
+}
+.card--4 {
+  background-color: disabled grey;
+}
+
+ul li:before {
+  content: "*";
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 96px;
+}
+header .button {
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 120px;
+  height: 100%;
+}
+header .button:hover {
+  color: black;
+  background-color: #ececec;
+}
+
+/*# sourceMappingURL=main_new.css.map */

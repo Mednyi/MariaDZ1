@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07d1d875-4cbf-4bf3-ac8f-50a2f1bb4a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkmates/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/framework/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates_page2/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates_page2/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates_page2/modules/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates_page2/modules/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmates_page2/modules/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates_page2/modules/Landing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dreamteam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytestrepo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -139,7 +126,15 @@
       <workItem from="1600499389327" duration="1282000" />
       <workItem from="1600625355753" duration="5275000" />
       <workItem from="1600755777968" duration="4091000" />
-      <workItem from="1600798330303" duration="4225000" />
+      <workItem from="1600798330303" duration="5064000" />
+      <workItem from="1600839841582" duration="1985000" />
+      <workItem from="1600975390223" duration="763000" />
+      <workItem from="1601013604838" duration="3419000" />
+      <workItem from="1601198816042" duration="218000" />
+      <workItem from="1601199166744" duration="356000" />
+      <workItem from="1601229709817" duration="177000" />
+      <workItem from="1601231826396" duration="76000" />
+      <workItem from="1601233025573" duration="581000" />
     </task>
     <servers />
   </component>
@@ -152,9 +147,10 @@
     </state>
     <state x="436" y="205" key="EditFileWatcherDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596135380415" />
     <state x="2465" y="256" width="729" height="487" key="EditFileWatcherDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600799546360" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1600502085448">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2606" y="234" key="FileChooserDialogImpl" timestamp="1600976152159">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600976152159" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600502085448" />
     <state width="1899" height="131" key="GridCell.Tab.0.bottom" timestamp="1599588197762">
       <screen x="1920" y="0" width="1920" height="1080" />

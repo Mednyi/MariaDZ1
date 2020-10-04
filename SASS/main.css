@@ -1,42 +1,17 @@
-header .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* Error: "Compiling error"
+ *    ,
+ * 35 |       @error 'Compiling error';
+ *    |       ^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   main.scss 35:7  root stylesheet */
 
-input--error {
-  border-color: red;
-}
-input--success {
-  border-color: green;
-}
-input--warning {
-  border-color: orange;
-}
-input--disabled {
-  border-color: grey;
-}
-
-ul li:before {
-  content: "*";
-}
-
-header {
-  background-color: black;
-  color: white;
-  height: 96px;
-}
-header .button {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
   border-bottom: 2px solid black;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  width: 120px;
-  height: 100%;
+  content: "Error: \"Compiling error\"\a    \2577 \a 35 \2502        @error 'Compiling error';\d\a    \2502        ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   main.scss 35:7  root stylesheet";
 }
-header .button:hover {
-  color: black;
-  background-color: #ececec;
-}
-
-/*# sourceMappingURL=main.css.map */
