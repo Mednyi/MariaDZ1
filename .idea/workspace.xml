@@ -26,7 +26,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -34,9 +33,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytestrepo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,6 +70,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,11 +137,13 @@
       <workItem from="1601229709817" duration="177000" />
       <workItem from="1601231826396" duration="76000" />
       <workItem from="1601233025573" duration="581000" />
+      <workItem from="1602183867423" duration="1307000" />
+      <workItem from="1602612253585" duration="3902000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2465" y="256" width="729" height="487" key="EditFileWatcherDialog" timestamp="1600799546360">
@@ -213,10 +217,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599419241417" />
-    <state x="2536" y="250" key="run.anything.popup" timestamp="1599418306673">
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1602613298383">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599418306673" />
+    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602613298383" />
     <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup" timestamp="1600193724687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
