@@ -36,6 +36,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytestrepo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -138,7 +139,7 @@
       <workItem from="1601231826396" duration="76000" />
       <workItem from="1601233025573" duration="581000" />
       <workItem from="1602183867423" duration="1307000" />
-      <workItem from="1602612253585" duration="3902000" />
+      <workItem from="1602612253585" duration="4300000" />
     </task>
     <servers />
   </component>
