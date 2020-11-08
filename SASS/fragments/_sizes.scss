@@ -1,0 +1,10 @@
+$padding: 16px 16px 16px 16px; // Нумерация с 1
+// nth($padding, 1); // Получить элемент с номером 1
+$super-padding: 32px 32px;
+// join($padding, $super-padding); // Объединение списков
+// append($padding, 19px); // Добавление в список
+$grid-base-large: 16px;
+$grid-base-medium: 8px;
+$grid-base: 2px;
+
+

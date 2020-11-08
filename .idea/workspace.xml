@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07d1d875-4cbf-4bf3-ac8f-50a2f1bb4a03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vector.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/checkmates/assets/images/Vector.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +12,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Pug File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Pug File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -29,7 +26,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,17 +33,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/checkmates" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytestrepo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\MariaDZ1\checkmates\modules\framework" />
       <recent name="D:\projects\MariaDZ1\checkmates\assets\images" />
       <recent name="D:\projects\MariaDZ1\checkmates\assets\css" />
       <recent name="D:\projects\MariaDZ1\checkmates\assets" />
       <recent name="D:\projects\MariaDZ1\checkmates\modules" />
-      <recent name="D:\projects\MariaDZ1\todo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\MariaDZ1\checkmates" />
@@ -72,6 +71,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,18 +115,48 @@
       <workItem from="1599415939518" duration="6002000" />
       <workItem from="1599486817106" duration="9000" />
       <workItem from="1599547933791" duration="2144000" />
-      <workItem from="1599584848202" duration="4001000" />
+      <workItem from="1599584848202" duration="4646000" />
+      <workItem from="1599668367133" duration="29000" />
+      <workItem from="1599721317287" duration="1112000" />
+      <workItem from="1599758095288" duration="4194000" />
+      <workItem from="1599998407752" duration="4000" />
+      <workItem from="1599998417436" duration="3190000" />
+      <workItem from="1600016200683" duration="4777000" />
+      <workItem from="1600062058386" duration="3968000" />
+      <workItem from="1600190893069" duration="5144000" />
+      <workItem from="1600290531347" duration="42000" />
+      <workItem from="1600366619844" duration="4653000" />
+      <workItem from="1600499389327" duration="1282000" />
+      <workItem from="1600625355753" duration="5275000" />
+      <workItem from="1600755777968" duration="4091000" />
+      <workItem from="1600798330303" duration="5064000" />
+      <workItem from="1600839841582" duration="1985000" />
+      <workItem from="1600975390223" duration="763000" />
+      <workItem from="1601013604838" duration="3419000" />
+      <workItem from="1601198816042" duration="218000" />
+      <workItem from="1601199166744" duration="356000" />
+      <workItem from="1601229709817" duration="177000" />
+      <workItem from="1601231826396" duration="76000" />
+      <workItem from="1601233025573" duration="581000" />
+      <workItem from="1602183867423" duration="1307000" />
+      <workItem from="1602612253585" duration="4300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="205" key="EditFileWatcherDialog" timestamp="1596135380415">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2465" y="256" width="729" height="487" key="EditFileWatcherDialog" timestamp="1600799546360">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="205" key="EditFileWatcherDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596135380415" />
+    <state x="2465" y="256" width="729" height="487" key="EditFileWatcherDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600799546360" />
+    <state x="2606" y="234" key="FileChooserDialogImpl" timestamp="1600976152159">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600976152159" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600502085448" />
     <state width="1899" height="131" key="GridCell.Tab.0.bottom" timestamp="1599588197762">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -179,21 +209,23 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="131" key="GridCell.Tab.2.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599588197762" />
-    <state x="277" y="75" key="SettingsEditor" timestamp="1598791803324">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2266" y="94" key="SettingsEditor" timestamp="1600799985300">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="277" y="75" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1598791803324" />
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1600290552857" />
+    <state x="2266" y="94" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600799985300" />
     <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599419241417">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599419241417" />
-    <state x="2536" y="250" key="run.anything.popup" timestamp="1599418306673">
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1602613298383">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599418306673" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1596568230339">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2536" y="250" key="run.anything.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602613298383" />
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup" timestamp="1600193724687">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1596568230339" />
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600193724687" />
   </component>
 </project>

@@ -1,6 +1,9 @@
 'use strict';
-import Component from './component.js';
+import Component from './framework/component.js';
 export default class Header extends Component {
+    constructor() {
+        super(null, './assets/css/header.css');
+    }
     template() {
         return `
                 <header>
