@@ -1,6 +1,11 @@
 doctype html
 head
+    link(rel='stylesheet' href='bitcoin.css')
     script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
     script(src='bitcoin_api_axios.js')
 body
     svg
+        defs
+            pattern(viewBox="0 0 1927 1000" width='1.0416%' height='2%' id='cells')
+                rect(x='0' y='0' width='1927' height='1000' stroke-width='10' stroke='red')
+        rect(x='0' y='0' width='192000' height='50000' fill='url(#cells)')

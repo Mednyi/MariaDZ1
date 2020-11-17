@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+circle {
+    stroke-dasharray: 628,07963267948966192313216916398px 628,3185307179586476925286766559px;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}

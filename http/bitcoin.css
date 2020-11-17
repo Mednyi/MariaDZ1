@@ -1,0 +1,11 @@
+svg {
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+}
+circle {
+    fill: green;
+}
+body {
+    margin: 0px;
+}
